@@ -10,7 +10,6 @@
  li x15 10           #number total of loops
  
  sw x11 0(gp)        #saves first number in memory
- blt x14 x15 loop
  
 loop:
     addi gp gp 4        #increments pointer in 4 bits
